@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/alpha1.unity
+- path: Assets/M3_Scenes/4grads_m3-AI.unity
   isLoaded: 1
   isActive: 1

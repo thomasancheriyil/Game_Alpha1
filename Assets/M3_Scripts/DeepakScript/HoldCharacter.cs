@@ -1,11 +1,14 @@
 ﻿using UnityEngine;
+using UnityEditor;
 using System.Collections;
 
 public class HoldCharacter : MonoBehaviour {
-    
+
+    public GameObject player;
     void OnTriggerEnter(Collider col)
     {
-        col.transform.parent = gameObject.transform;
+        GameObject temp = col.transform.gameObject;
+        player.transform.SetParent(gameObject.transform);
     }
 
     void OnTriggerExit(Collider col)

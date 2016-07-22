@@ -72,7 +72,6 @@
      <Compile Include="Assets\M3_Scripts\BrettScript\KayaIsoLocomotion.cs" />
      <Compile Include="Assets\M3_Scripts\BrettScript\Locomotion.cs" />
      <Compile Include="Assets\M3_Scripts\BrettScript\TableCollision.cs" />
-     <Compile Include="Assets\M3_Scripts\BrettScript\Timer.cs" />
      <Compile Include="Assets\M3_Scripts\BrettScript\TrashCollision.cs" />
      <Compile Include="Assets\M3_Scripts\BrettScript\WalkingOnGrating.cs" />
      <Compile Include="Assets\M3_Scripts\DeepakScript\HoldCharacter.cs" />

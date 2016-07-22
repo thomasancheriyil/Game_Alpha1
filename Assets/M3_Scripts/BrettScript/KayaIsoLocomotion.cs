@@ -316,12 +316,6 @@ public class KayaIsoLocomotion : MonoBehaviour {
 		StartCoroutine (reloadScene ());
 	}
 
-    public void setRagdoll()
-    {
-        if (!ragDoll)
-            ragDoll = true;
-    }
-
 	groundInfo playerGrounded(){
 
         groundInfo currentGroundInfo;

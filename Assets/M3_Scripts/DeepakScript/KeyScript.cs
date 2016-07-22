@@ -15,8 +15,4 @@ public class KeyScript : MonoBehaviour {
         doorObject.GetComponent<doorScript>().isUnlocked = true;
     }
 	
-    void Update()
-    {
-        transform.Rotate(new Vector3(45, 0, 0) * Time.deltaTime);
-    }
 }

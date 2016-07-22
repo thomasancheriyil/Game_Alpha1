@@ -19,7 +19,6 @@ public class chase : MonoBehaviour {
         anim = GetComponent<Animator>();
         nav = GetComponent<NavMeshAgent>();
         playerObject = GameObject.FindGameObjectWithTag("Player");
-        this.tag = "Untagged";
     }
 
     // Update is called once per frame
@@ -54,8 +53,6 @@ public class chase : MonoBehaviour {
                     }
                     else
                     {
-                        Debug.Log("Attack!");
-                        this.tag = "Obstacle";
                         nav.Stop();
                         anim.SetBool("isAttacking", true);
                         anim.SetBool("isWalking", false);
@@ -91,6 +88,6 @@ public class chase : MonoBehaviour {
                 chaseTimer = 0f;
             }
         }
-        this.tag = "Obstacle";
+
     }
 }

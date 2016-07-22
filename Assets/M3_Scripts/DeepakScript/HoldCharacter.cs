@@ -7,13 +7,17 @@ public class HoldCharacter : MonoBehaviour {
     public GameObject player;
     void OnTriggerEnter(Collider col)
     {
-        GameObject temp = col.transform.gameObject;
+        player.transform.SetParent(gameObject.transform);
+    }
+
+    void OnTriggerStay(Collider col)
+    {
         player.transform.SetParent(gameObject.transform);
     }
 
     void OnTriggerExit(Collider col)
     {
-        col.transform.parent = null;
+        player.transform.parent = null;
     }
 
 }

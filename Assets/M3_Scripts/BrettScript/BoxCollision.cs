@@ -14,7 +14,7 @@ public class BoxCollision : MonoBehaviour {
 
 		//check to see if collision is with the player object
 		if (other.gameObject.CompareTag ("Player")) {
-			Debug.Log ("player hit box");
+			//Debug.Log ("player hit box");
 			boxAudio.Play ();
 		}
 
